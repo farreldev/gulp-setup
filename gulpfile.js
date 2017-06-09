@@ -22,6 +22,7 @@ gulp.task('html', ['sass','scripts','pug'] , function() {
 
 gulp.task('scripts', function() {
 	gulp.src('src/js/**/*.js')
+	.pipe($.babel())
 	.pipe(gulp.dest('.tmp/js'))
 	.pipe(bs.reload({stream: true}));
 })

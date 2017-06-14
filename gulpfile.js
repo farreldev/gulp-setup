@@ -1,6 +1,6 @@
-const gulp  = require('gulp'),
-			glp		= require('gulp-load-plugins'),
-			bs 		= require('browser-sync');
+const gulp = require('gulp'),
+			glp	 = require('gulp-load-plugins'),
+			bs 	 = require('browser-sync');
 
 const $ = glp();
 const folderDist = 'app'
